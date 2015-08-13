@@ -72,11 +72,11 @@
 
     <xs:complexType name="EdsupsuType">
         <xs:sequence>
-            <xs:element name="psu" type="edsupsuType" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="psu" type="EdsupsuValueType" minOccurs="0" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
 
-    <xs:complexType name="edsupsuType">
+    <xs:complexType name="EdsupsuValueType">
         <xs:simpleContent>
             <xs:extension base="xs:string">
                 <xs:attribute name="edsu" type="xs:string" />
@@ -144,7 +144,7 @@
     -->
     <xs:complexType name="ModelsType">
         <xs:sequence>
-            <xs:element name="process" type="ProcessType" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="process" type="ProcessType" minOccurs="0" maxOccurs="unbounded"/>
         </xs:sequence>
 	<xs:attribute name="name" type="xs:string" use="required" />
     </xs:complexType>
