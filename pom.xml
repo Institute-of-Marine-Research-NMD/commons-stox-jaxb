@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>no.imr.nmd.commons.stox.jaxb</groupId>
     <artifactId>commons-stox-jaxb</artifactId>
-    <version>0.0.5-SNAPSHOT</version>
+    <version>0.0.5</version>
     <packaging>jar</packaging>
     <name>Commons - Stox JaxB</name>
     <repositories>
@@ -113,7 +113,7 @@
         <connection>scm:git:git@github.com:Institute-of-Marine-Research-NMD/commons-stox-jaxb.git</connection>
         <url>scm:git:git@github.com:Institute-of-Marine-Research-NMD/commons-stox-jaxb.git</url>
         <developerConnection>scm:git:git@github.com:Institute-of-Marine-Research-NMD/commons-stox-jaxb.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>commons-stox-jaxb-0.0.5</tag>
     </scm>
     <distributionManagement>
         <repository>
